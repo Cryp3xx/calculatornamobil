@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    zoom: 150%;
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #ffd28b, #ffe68b); /* Gradient background with vibrant colors */
+     color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers button {
+    border: 1px solid black;
+    margin: 2px;
+    padding: 5px;
+}
+
+.login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.successtext {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

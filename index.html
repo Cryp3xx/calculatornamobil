@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1text">
+    <h1>Calculator</h1>
+</div>
+    <input type="text" id="firstNumber" placeholder="First Number" readonly onclick="switchInputField(1)">
+    <input type="text" id="secondNumber" placeholder="Second Number" readonly onclick="switchInputField(2)">
+    <br>
+    <div class="numbers">
+    <button onclick="updateInput(1)">1</button>
+    <button onclick="updateInput(2)">2</button>
+    <button onclick="updateInput(3)">3</button>
+    <br>
+    <button onclick="updateInput(4)">4</button>
+    <button onclick="updateInput(5)">5</button>
+    <button onclick="updateInput(6)">6</button>
+    <br>
+    <button onclick="updateInput(7)">7</button>
+    <button onclick="updateInput(8)">8</button>
+    <button onclick="updateInput(9)">9</button>
+    <br>
+    <button onclick="updateInput(0)">0</button>
+    <br>
+    <button onclick="addition()">+</button>
+    <button onclick="substraction()">-</button>
+    <button onclick="division()">/</button>
+    <button onclick="multiplication()">*</button>
+    <button onclick="percentage()">%</button>
+</div>
+    <br>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
